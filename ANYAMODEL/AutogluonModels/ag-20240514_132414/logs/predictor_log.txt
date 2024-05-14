@@ -1,0 +1,144 @@
+Beginning AutoGluon training... Time limit = 600s
+AutoGluon will save models to 'AutogluonModels\ag-20240514_132414'
+=================== System Info ===================
+AutoGluon Version:  1.1.0
+Python Version:     3.9.13
+Operating System:   Windows
+Platform Machine:   AMD64
+Platform Version:   10.0.19045
+CPU Count:          8
+GPU Count:          0
+Memory Avail:       6.14 GB / 15.91 GB (38.6%)
+Disk Space Avail:   330.54 GB / 446.52 GB (74.0%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'D',
+ 'hyperparameters': 'light',
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 200,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 600,
+ 'verbosity': 2}
+
+train_data with frequency 'None' has been resampled to frequency 'D'.
+Provided train_data has 8056 rows, 8056 time series. Median time series length is 1 (min=1, max=1). 
+	Removing 8056 short time series from train_data. Only series with length >= 401 will be used for training.
+	After filtering, train_data has 0 rows, 0 time series. Median time series length is nan (min=nan, max=nan). 
+Beginning AutoGluon training... Time limit = 600s
+AutoGluon will save models to 'AutogluonModels\ag-20240514_132831'
+=================== System Info ===================
+AutoGluon Version:  1.1.0
+Python Version:     3.9.13
+Operating System:   Windows
+Platform Machine:   AMD64
+Platform Version:   10.0.19045
+CPU Count:          8
+GPU Count:          0
+Memory Avail:       6.08 GB / 15.91 GB (38.2%)
+Disk Space Avail:   330.54 GB / 446.52 GB (74.0%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'D',
+ 'hyperparameters': 'light',
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 100,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 600,
+ 'verbosity': 2}
+
+train_data with frequency 'None' has been resampled to frequency 'D'.
+Provided train_data has 8056 rows, 8056 time series. Median time series length is 1 (min=1, max=1). 
+	Removing 8056 short time series from train_data. Only series with length >= 201 will be used for training.
+	After filtering, train_data has 0 rows, 0 time series. Median time series length is nan (min=nan, max=nan). 
+Beginning AutoGluon training... Time limit = 600s
+AutoGluon will save models to 'AutogluonModels\ag-20240514_132924'
+=================== System Info ===================
+AutoGluon Version:  1.1.0
+Python Version:     3.9.13
+Operating System:   Windows
+Platform Machine:   AMD64
+Platform Version:   10.0.19045
+CPU Count:          8
+GPU Count:          0
+Memory Avail:       6.13 GB / 15.91 GB (38.5%)
+Disk Space Avail:   330.54 GB / 446.52 GB (74.0%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'D',
+ 'hyperparameters': 'light',
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 50,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 600,
+ 'verbosity': 2}
+
+train_data with frequency 'None' has been resampled to frequency 'D'.
+Provided train_data has 8116 rows, 8116 time series. Median time series length is 1 (min=1, max=1). 
+	Removing 8116 short time series from train_data. Only series with length >= 101 will be used for training.
+	After filtering, train_data has 0 rows, 0 time series. Median time series length is nan (min=nan, max=nan). 
+Beginning AutoGluon training... Time limit = 600s
+AutoGluon will save models to 'AutogluonModels\ag-20240514_132942'
+=================== System Info ===================
+AutoGluon Version:  1.1.0
+Python Version:     3.9.13
+Operating System:   Windows
+Platform Machine:   AMD64
+Platform Version:   10.0.19045
+CPU Count:          8
+GPU Count:          0
+Memory Avail:       6.12 GB / 15.91 GB (38.4%)
+Disk Space Avail:   330.54 GB / 446.52 GB (74.0%)
+===================================================
+Setting presets to: medium_quality
+
+Fitting with arguments:
+{'enable_ensemble': True,
+ 'eval_metric': MAPE,
+ 'freq': 'D',
+ 'hyperparameters': 'light',
+ 'known_covariates_names': [],
+ 'num_val_windows': 1,
+ 'prediction_length': 30,
+ 'quantile_levels': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+ 'random_seed': 123,
+ 'refit_every_n_windows': 1,
+ 'refit_full': False,
+ 'skip_model_selection': False,
+ 'target': 'target',
+ 'time_limit': 600,
+ 'verbosity': 2}
+
+train_data with frequency 'None' has been resampled to frequency 'D'.
+Provided train_data has 8116 rows, 8116 time series. Median time series length is 1 (min=1, max=1). 
+	Removing 8116 short time series from train_data. Only series with length >= 61 will be used for training.
+	After filtering, train_data has 0 rows, 0 time series. Median time series length is nan (min=nan, max=nan). 
